@@ -20,7 +20,7 @@ import eu.monnetproject.sim.EntitySimilarityMeasure;
 import eu.monnetproject.sim.TokenSimilarityMeasure;
 import eu.monnetproject.sim.util.Functions;
 import eu.monnetproject.sim.util.SimilarityUtils;
-import eu.monnetproject.tokens.Token;
+import eu.monnetproject.tokenizer.Token;
 import eu.monnetproject.tokenizer.Tokenizer;
 import eu.monnetproject.translator.Translator;
 import eu.monnetproject.util.Logging;

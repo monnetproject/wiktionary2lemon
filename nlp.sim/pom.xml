@@ -5,14 +5,14 @@
 
     <parent>
         <groupId>eu.monnetproject</groupId>
-        <artifactId>project</artifactId>
+        <artifactId>wiktionary2lemon.project</artifactId>
         <version>1.13.1-SNAPSHOT</version>
         <relativePath>..</relativePath>
     </parent>
-    <artifactId>nlp.sim</artifactId>
+    <artifactId>wiktionary2lemon.nlp.sim</artifactId>
     <packaging>bundle</packaging>
 
-    <name>eu.monnetproject.nlp.sim OSGi Bundle</name>
+    <name>eu.monnetproject.wiktionary2lemon.nlp.sim OSGi Bundle</name>
 
 
     <dependencies>
@@ -21,11 +21,11 @@
             <artifactId>org.osgi.core</artifactId>
             <version>1.4.0</version>
         </dependency>
-        <dependency>
+        <!--<dependency>
             <groupId>eu.monnetproject</groupId>
             <artifactId>nlp.core</artifactId>
             <version>${project.version}</version>
-        </dependency>
+        </dependency>-->
         <dependency>
             <groupId>biz.aQute</groupId>
             <artifactId>bnd</artifactId>
@@ -35,6 +35,16 @@
         <dependency>
             <groupId>${project.groupId}</groupId>
             <artifactId>framework.services</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>${project.groupId}</groupId>
+            <artifactId>language</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>${project.groupId}</groupId>
+            <artifactId>ontology</artifactId>
             <version>${project.version}</version>
         </dependency>
     </dependencies>

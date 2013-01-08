@@ -7,7 +7,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import eu.monnetproject.stl.t.TermAnalyzer;
-import eu.monnetproject.tokens.Token;
+import eu.monnetproject.tokenizer.Token;
 
 /**
  * Termbase measure using a termbase and Levenshtein Token Measure
@@ -27,7 +27,7 @@ public class TermMeasureSimple implements StringSimilarityMeasure {
 	private List<Token> termList2TokenList(List<String> termList) {
 		List<Token> tokenList = new ArrayList<Token>();
 		for(String termToken:termList) {
-			tokenList.add(new SimpleToken(termToken));
+			tokenList.add(new Token(termToken));
 		}
 		return tokenList;
 	}

@@ -7,8 +7,8 @@ import java.util.List;
 import java.util.Vector;
 
 import aQute.bnd.annotation.component.Component;
+import eu.monnetproject.tokenizer.Token;
 
-import eu.monnetproject.tokens.Token;
 
 /**
  * Token list measure calculating bag-of-words cosine similarity

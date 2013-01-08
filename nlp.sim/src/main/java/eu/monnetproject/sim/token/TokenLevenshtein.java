@@ -1,9 +1,9 @@
 package eu.monnetproject.sim.token;
 
 import eu.monnetproject.sim.TokenSimilarityMeasure;
+import eu.monnetproject.tokenizer.Token;
 import java.util.List;
 
-import eu.monnetproject.tokens.Token;
 
 /**
  * Token list measure using Levenshtein algorithm

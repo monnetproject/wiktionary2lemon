@@ -23,7 +23,7 @@ import eu.monnetproject.ontology.LiteralOrIndividual;
 import eu.monnetproject.ontology.LiteralValue;
 import eu.monnetproject.ontology.Ontology;
 import eu.monnetproject.ontology.Property;
-import eu.monnetproject.tokens.Token;
+import eu.monnetproject.tokenizer.Token;
 import eu.monnetproject.translator.Translation;
 import eu.monnetproject.translator.Translator;
 import eu.monnetproject.util.Logging;
