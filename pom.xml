@@ -48,8 +48,7 @@
     </pluginRepositories>
     
     <modules>
-        <module>main</module>    
-        <module>nlp.sim</module>
+        <module>main</module>
   </modules>
   
     <dependencies>

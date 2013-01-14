@@ -1,7 +1,6 @@
 package eu.monnetproject.webaccess.dictionary.wiktionary.dump;
 
 import eu.monnetproject.lang.Language;
-import eu.monnetproject.util.Logging;
 import eu.monnetproject.webaccess.dictionary.wiktionary.util.Strings;
 
 import java.io.UnsupportedEncodingException;
@@ -10,15 +9,15 @@ import java.util.List;
 import java.net.*;
 import java.util.HashMap;
 import java.util.Map;
-import eu.monnetproject.util.Logger;
 import java.io.PrintWriter;
+import java.util.logging.Logger;
 
 /**
  *
  * @author John McCrae
  */
 public class DumpEntry {
-    private final static Logger log = Logging.getLogger(DumpEntry.class);
+    private final static Logger log = Logger.getLogger(DumpEntry.class.getName());
     public String key;
     public String type;
     public Language lang;

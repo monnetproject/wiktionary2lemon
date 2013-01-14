@@ -3,7 +3,6 @@ package eu.monnetproject.webaccess.dictionary.wiktionary.dump;
 import eu.monnetproject.lang.Language;
 import eu.monnetproject.lang.LanguageCodeFormatException;
 import eu.monnetproject.sim.StringSimilarityMeasure;
-import eu.monnetproject.util.Logging;
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.InputStreamReader;
@@ -15,10 +14,10 @@ import java.util.HashMap;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Map;
-import eu.monnetproject.util.Logger;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.PrintWriter;
+import java.util.logging.Logger;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -28,7 +27,7 @@ import java.util.regex.Pattern;
  */
 public class ReadDump {
 
-    private static final Logger log = Logging.getLogger(ReadDump.class);
+    private static final Logger log = Logger.getLogger(ReadDump.class.getName());
     private static String langCode = "en|es|de|fr|nl|ja";
     private static final HashSet<Language> supportedLangs = new HashSet<Language>();
 
