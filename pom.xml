@@ -12,66 +12,31 @@
         <scala.version>2.9.0</scala.version>
     </properties>
     
-    <distributionManagement>
-        <repository>
-            <id>internal.repo</id>
-            <name>Monnet01 Repository</name>
-            <url>file:///var/www/mvn/</url>
-        </repository>
-        <snapshotRepository>
-            <id>internal.repo</id>
-            <name>Monnet01 Repository</name>
-            <url>file:///var/www/mvn/</url>
-            <uniqueVersion>false</uniqueVersion>
-        </snapshotRepository>
-    </distributionManagement>
-    
-    <repositories>
-        <repository>
-            <id>aduna</id>
-            <name>Aduna Repository</name>
-            <url>http://repo.aduna-software.org/maven2/releases/</url>
-        </repository>
-        <repository>
-            <id>monnet01</id>
-            <name>Monnet repository</name>
-            <url>http://monnet01.sindice.net/mvn</url>
-        </repository>
-    </repositories>
-
-    <pluginRepositories>
-        <pluginRepository>
-            <id>monnet01</id>
-            <name>Monnet plug-in repository</name>
-            <url>http://monnet01.sindice.net/mvn</url>
-        </pluginRepository>
-    </pluginRepositories>
-    
     <dependencies>
         <dependency>
             <groupId>org.openrdf.sesame</groupId>
             <artifactId>sesame-repository-api</artifactId>
-            <version>2.3.2</version>
+            <version>2.6.10</version>
         </dependency>
         <dependency>
             <groupId>org.openrdf.sesame</groupId>
             <artifactId>sesame-sail-memory</artifactId>
-            <version>2.3.2</version>
+            <version>2.6.10</version>
         </dependency>
         <dependency>
             <groupId>org.openrdf.sesame</groupId>
             <artifactId>sesame-rio-rdfxml</artifactId>
-            <version>2.3.2</version>
+            <version>2.6.10</version>
         </dependency>
         <dependency>
             <groupId>org.openrdf.sesame</groupId>
             <artifactId>sesame-rio-turtle</artifactId>
-            <version>2.3.2</version>
+            <version>2.6.10</version>
         </dependency>
         <dependency>
             <groupId>org.openrdf.sesame</groupId>
             <artifactId>sesame-repository-sail</artifactId>
-            <version>2.3.2</version>
+            <version>2.6.10</version>
         </dependency>
         <dependency>
             <groupId>${project.groupId}</groupId>
